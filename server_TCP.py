@@ -2,7 +2,7 @@ import threading
 import socket
 
 
-host = '10.0.52.32'
+host = socket.gethostbyname(socket.gethostname())
 port = 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

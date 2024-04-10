@@ -5,7 +5,7 @@ import os
 nickname = input("Choose a nickname: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('10.0.52.32', 55555))
+client.connect(('<SERVER IP>', 55555))
 
 def receive():
     while True:
