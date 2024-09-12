@@ -2,7 +2,7 @@
 - To use this code you first have to run the ```server_TCP.py``` file this will start the server.
 
 ``` 
-##python server_TCP.py
+python server_TCP.py
 ```
 
 - To connect to the server you have to know the IP for the server first and then run the ```client_TCP.py```.
